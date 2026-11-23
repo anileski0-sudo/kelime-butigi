@@ -1,0 +1,1802 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Kelime Butiği · AGS İngilizce</title>
+  <meta name="description" content="AGS'ye hazırlananlar için B1–B2 seviyesinde 800 İngilizce kelime.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+:root {
+  --ink: #2a1c1a;
+  --muted: #6a5450;
+  --card: #fffaf6;
+  --card-2: #fbf1ec;
+  --line: #ecdcd2;
+  --rose: #9b2c55;
+  --rose-dark: #7a1f41;
+  --blush: #f8e4ea;
+  --gold: #9a6f30;
+  --gold-soft: #f3e6cf;
+  --ok: #24654a;
+  --ok-soft: #e3f2ea;
+  --danger: #a3302a;
+  --danger-soft: #fbe7e4;
+  --radius: 22px;
+  --shadow: 0 14px 36px rgba(58, 30, 14, .22), 0 2px 6px rgba(58, 30, 14, .12);
+  --serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --sans: "Nunito Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--sans);
+  color: var(--ink);
+  line-height: 1.55;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  /* Leopar deseni + okunabilirlik için yumuşatıcı katman */
+  background-color: #dcb68c;
+  background-image:
+    radial-gradient(ellipse at 50% 0%, rgba(255, 246, 238, .55), rgba(255, 246, 238, .18) 70%),
+    linear-gradient(rgba(70, 30, 25, .08), rgba(70, 30, 25, .08)),
+    url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjYwIiBoZWlnaHQ9IjI2MCIgdmlld0JveD0iMCAwIDI2MCAyNjAiPgogIDxkZWZzPgogICAgPGcgaWQ9InIiPgogICAgICA8ZWxsaXBzZSBjeD0iMCIgY3k9IjAiIHJ4PSIxMyIgcnk9IjkuNSIgZmlsbD0iI2JmOGE1OCIvPgogICAgICA8ZyBmaWxsPSJub25lIiBzdHJva2U9IiMzMzIwMGYiIHN0cm9rZS13aWR0aD0iNC4yIiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxwYXRoIGQ9Ik0tMTUgLTMgQy0xNiAtMTAgLTkgLTE0IC0yIC0xMy41Ii8+CiAgICAgICAgPHBhdGggZD0iTTQgLTEzIEMxMSAtMTIgMTYgLTcgMTUuNSAtMSIvPgogICAgICAgIDxwYXRoIGQ9Ik0xNSA0IEMxMyAxMCA3IDEzIDEgMTMiLz4KICAgICAgICA8cGF0aCBkPSJNLTQgMTMgQy0xMCAxMiAtMTUgOCAtMTYgMyIvPgogICAgICA8L2c+CiAgICA8L2c+CiAgICA8cGF0aCBpZD0icyIgZD0iTTAgLTQgQzQgLTUgNiAtMSA1IDIgQzQgNSAtMSA2IC00IDMgQy02IDAgLTQgLTMgMCAtNFoiIGZpbGw9IiMzMzIwMGYiLz4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjI2MCIgaGVpZ2h0PSIyNjAiIGZpbGw9IiNkY2I2OGMiLz4KICA8dXNlIHhsaW5rOmhyZWY9IiNyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MCA0Mikgcm90YXRlKDE4KSIvPgogIDx1c2UgeGxpbms6aHJlZj0iI3IiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzMCAzMCkgcm90YXRlKC0xMikgc2NhbGUoLjg1KSIvPgogIDx1c2UgeGxpbms6aHJlZj0iI3IiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxMiA1OCkgcm90YXRlKDM1KSBzY2FsZSgxLjEpIi8+CiAgPHVzZSB4bGluazpocmVmPSIjciIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODYgMTA0KSByb3RhdGUoLTI4KSBzY2FsZSguOTUpIi8+CiAgPHVzZSB4bGluazpocmVmPSIjciIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTc4IDEyOCkgcm90YXRlKDgpIi8+CiAgPHVzZSB4bGluazpocmVmPSIjciIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzQgMTYwKSByb3RhdGUoNTIpIHNjYWxlKC45KSIvPgogIDx1c2UgeGxpbms6aHJlZj0iI3IiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyMCAxOTApIHJvdGF0ZSgtNikgc2NhbGUoMS4wNSkiLz4KICA8dXNlIHhsaW5rOmhyZWY9IiNyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMjIgMjA4KSByb3RhdGUoLTQwKSBzY2FsZSguODUpIi8+CiAgPHVzZSB4bGluazpocmVmPSIjciIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNzAgMjMyKSByb3RhdGUoMjIpIHNjYWxlKC44KSIvPgogIDx1c2UgeGxpbms6aHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDg4IDUwKSByb3RhdGUoMjApIi8+CiAgPHVzZSB4bGluazpocmVmPSIjcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTcyIDgyKSByb3RhdGUoLTMwKSBzY2FsZSgxLjIpIi8+CiAgPHVzZSB4bGluazpocmVmPSIjcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzAgMTA0KSByb3RhdGUoNjApIHNjYWxlKC45KSIvPgogIDx1c2UgeGxpbms6aHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIzNiAxMzIpIHNjYWxlKDEuMSkiLz4KICA8dXNlIHhsaW5rOmhyZWY9IiNzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNDAgMTQ4KSByb3RhdGUoNDUpIHNjYWxlKC44KSIvPgogIDx1c2UgeGxpbms6aHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDc2IDE2OCkgcm90YXRlKC0xNSkiLz4KICA8dXNlIHhsaW5rOmhyZWY9IiNzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNzggMTk2KSByb3RhdGUoODApIHNjYWxlKC45KSIvPgogIDx1c2UgeGxpbms6aHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI0IDIyMikgcm90YXRlKDEwKSBzY2FsZSgxLjEpIi8+CiAgPHVzZSB4bGluazpocmVmPSIjcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTUwIDI0MCkgcm90YXRlKC01MCkgc2NhbGUoLjg1KSIvPgogIDx1c2UgeGxpbms6aHJlZj0iI3MiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI0MCAyMCkgcm90YXRlKDMwKSBzY2FsZSguOCkiLz4KPC9zdmc+Cg==");
+  background-size: auto, auto, 260px 260px;
+  background-attachment: fixed;
+}
+
+/* Telefonun üst güvenli alanını üst çubuk rengiyle boya */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  z-index: 30;
+  background: var(--card);
+}
+
+h1, h2, h3 { font-family: var(--serif); line-height: 1.2; margin: 0 0 .5rem; }
+
+.skip-link {
+  position: absolute; left: -999px; top: 0;
+  background: var(--ink); color: #fff; padding: .6rem 1rem; z-index: 100; border-radius: 0 0 10px 0;
+}
+.skip-link:focus { left: 0; }
+
+:focus-visible { outline: 3px solid var(--rose); outline-offset: 3px; }
+
+/* ---------- Üst çubuk ---------- */
+.topbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
+  background: rgba(255, 250, 246, .94);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 4px 18px rgba(58, 30, 14, .12);
+}
+.topbar-inner {
+  max-width: 980px; margin: 0 auto; padding-block: .6rem;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex; align-items: center; justify-content: space-between; gap: .75rem; flex-wrap: wrap;
+}
+.brand { display: flex; align-items: center; gap: .55rem; text-decoration: none; color: var(--ink); }
+.brand-mark {
+  width: 38px; height: 38px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--rose); color: #fff; font-size: 1.05rem;
+  box-shadow: inset 0 0 0 3px rgba(255,255,255,.35);
+}
+.brand-text { font-family: var(--serif); font-weight: 700; font-size: 1.2rem; line-height: 1.1; }
+.brand-text small { display: block; font-family: var(--sans); font-weight: 600; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--gold); }
+
+.nav { display: flex; gap: .25rem; flex-wrap: wrap; }
+.nav a {
+  text-decoration: none; color: var(--ink); font-weight: 600; font-size: .95rem;
+  padding: .45rem .8rem; border-radius: 999px; display: inline-flex; align-items: center; gap: .35rem;
+}
+.nav a:hover { background: var(--blush); }
+.nav a[aria-current="page"] { background: var(--rose); color: #fff; }
+.badge {
+  min-width: 1.5rem; padding: 0 .4rem; height: 1.5rem; border-radius: 999px;
+  display: inline-grid; place-items: center; font-size: .75rem; font-weight: 700;
+  background: var(--gold-soft); color: var(--ink);
+}
+.nav a[aria-current="page"] .badge { background: #fff; color: var(--rose-dark); }
+
+/* ---------- Yerleşim ---------- */
+main { flex: 1; width: 100%; max-width: 980px; margin: 0 auto; padding-block: 1.5rem 2.5rem; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); outline: none; }
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid rgba(154, 111, 48, .25);
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.card-narrow { max-width: 640px; margin-left: auto; margin-right: auto; }
+
+.eyebrow { font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); margin: 0 0 .3rem; }
+.lead { color: var(--muted); margin: 0 0 1rem; }
+
+/* ---------- İstatistikler ---------- */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: .75rem; margin: 1rem 0; }
+.stat { background: var(--card-2); border: 1px solid var(--line); border-radius: 16px; padding: .85rem; text-align: center; }
+.stat-value { display: block; font-family: var(--serif); font-size: 1.9rem; font-weight: 700; color: var(--rose-dark); line-height: 1.1; }
+.stat-label { font-size: .85rem; color: var(--muted); font-weight: 600; }
+
+.progress { height: 14px; background: var(--blush); border-radius: 999px; overflow: hidden; border: 1px solid var(--line); }
+.progress-bar { height: 100%; background: linear-gradient(90deg, var(--rose), #c65a7f); border-radius: 999px; transition: width .4s ease; }
+.progress-meta { display: flex; justify-content: space-between; font-size: .88rem; color: var(--muted); margin-top: .4rem; gap: .5rem; flex-wrap: wrap; }
+
+.actions { display: grid; grid-template-columns: repeat(3, 1fr); gap: .75rem; margin-top: 1.25rem; }
+
+/* ---------- Butonlar ---------- */
+.btn {
+  font: inherit; font-weight: 700; font-size: 1rem;
+  border: 2px solid transparent; border-radius: 14px;
+  padding: .8rem 1.1rem; cursor: pointer; text-decoration: none; text-align: center;
+  display: inline-flex; align-items: center; justify-content: center; gap: .45rem;
+  transition: transform .08s ease, background .15s ease, box-shadow .15s ease;
+  min-height: 48px;
+}
+.btn:active { transform: translateY(1px); }
+.btn-primary { background: var(--rose); color: #fff; }
+.btn-primary:hover { background: var(--rose-dark); }
+.btn-outline { background: #fff; color: var(--rose-dark); border-color: var(--rose); }
+.btn-outline:hover { background: var(--blush); }
+.btn-ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+.btn-ghost:hover { background: var(--card-2); }
+.btn-danger { background: var(--danger); color: #fff; }
+.btn-danger:hover { background: #82241f; }
+.btn-small { min-height: 38px; padding: .45rem .8rem; font-size: .9rem; border-radius: 10px; }
+.btn-row { display: flex; gap: .75rem; flex-wrap: wrap; }
+.btn-row .btn { flex: 1 1 160px; }
+.btn[disabled] { opacity: .55; cursor: not-allowed; }
+
+/* ---------- Kelime kartı ---------- */
+.word-card { text-align: center; padding: 2rem 1.5rem; }
+.word-meta { display: flex; justify-content: space-between; align-items: center; font-size: .85rem; color: var(--muted); margin-bottom: 1.25rem; gap: .5rem; flex-wrap: wrap; }
+.word {
+  font-family: var(--serif); font-size: clamp(2.2rem, 7vw, 3.2rem); font-weight: 700;
+  color: var(--ink); margin: .2rem 0 .4rem; word-break: break-word; letter-spacing: .01em;
+}
+.pos { display: inline-block; font-size: .82rem; font-weight: 700; padding: .2rem .7rem; border-radius: 999px; background: var(--gold-soft); color: #5e4219; }
+.meaning { font-size: 1.3rem; font-weight: 600; margin: 1rem 0 1.5rem; color: var(--ink); }
+.meaning-hidden { font-size: .95rem; font-weight: 600; color: var(--muted); border: 2px dashed var(--line); border-radius: 12px; padding: .7rem; }
+.speak { background: none; border: 1px solid var(--line); border-radius: 999px; padding: .25rem .7rem; cursor: pointer; font: inherit; font-size: .85rem; color: var(--muted); margin-left: .35rem; }
+.speak:hover { background: var(--card-2); }
+
+/* ---------- Form ---------- */
+.field label { display: block; font-weight: 700; margin-bottom: .4rem; text-align: left; }
+.field textarea, .field input[type="search"] {
+  width: 100%; font: inherit; font-size: 1.05rem; color: var(--ink);
+  border: 2px solid var(--line); border-radius: 14px; padding: .8rem .9rem; background: #fff; resize: vertical;
+}
+.field textarea:focus, .field input:focus { border-color: var(--rose); outline: none; box-shadow: 0 0 0 3px rgba(155, 44, 85, .18); }
+.hint { font-size: .88rem; color: var(--muted); margin: .4rem 0 0; text-align: left; }
+.error { color: var(--danger); background: var(--danger-soft); border-radius: 10px; padding: .55rem .75rem; font-weight: 600; font-size: .92rem; margin: .6rem 0 0; text-align: left; }
+.error:empty { display: none; }
+
+/* ---------- Bildirimler ---------- */
+.notice { border-radius: 14px; padding: .8rem 1rem; margin-bottom: 1rem; font-weight: 600; }
+.notice-warn { background: var(--danger-soft); color: var(--danger); border: 1px solid #f0c4be; }
+.notice-ok { background: var(--ok-soft); color: var(--ok); border: 1px solid #bfe0cf; }
+.notice-info { background: var(--card-2); color: var(--ink); border: 1px solid var(--line); }
+
+.toast {
+  position: fixed; left: 50%; bottom: calc(1.25rem + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+  background: var(--ink); color: #fff; padding: .8rem 1.2rem; border-radius: 14px;
+  box-shadow: var(--shadow); z-index: 50; max-width: calc(100% - 2rem); font-weight: 600;
+  display: flex; align-items: center; gap: .6rem;
+}
+
+/* ---------- Ülke bilgileri ---------- */
+.countries { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: .9rem; }
+.country { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: 1rem; }
+.country-head { display: flex; align-items: center; gap: .7rem; margin-bottom: .5rem; }
+.country-head h3 { font-size: 1.1rem; margin: 0; }
+.country-code { flex: none; min-width: 44px; height: 44px; padding: 0 .4rem; border-radius: 12px; display: grid; place-items: center; background: var(--blush); color: var(--rose-dark); font-weight: 700; font-size: .85rem; letter-spacing: .04em; }
+.country-capital { margin: 0; font-size: .85rem; color: var(--muted); }
+.country-text { margin: 0 0 .5rem; font-size: .95rem; }
+.country-note { margin: 0; font-size: .92rem; background: var(--card-2); border-radius: 10px; padding: .55rem .7rem; }
+
+/* ---------- Listeler ---------- */
+.list { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+.list-item { background: #fff; border: 1px solid var(--line); border-radius: 16px; padding: .9rem 1rem; }
+.list-head { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
+.list-word { font-family: var(--serif); font-weight: 700; font-size: 1.25rem; }
+.list-meaning { color: var(--ink); font-weight: 600; }
+.sentence { margin: .5rem 0 0; padding: .55rem .8rem; border-left: 3px solid var(--rose); background: var(--card-2); border-radius: 0 10px 10px 0; font-style: italic; overflow-wrap: anywhere; }
+.sentence.missing { border-left-color: var(--gold); font-style: normal; color: var(--muted); }
+.list-tools { display: flex; gap: .5rem; margin-top: .6rem; flex-wrap: wrap; }
+.toolbar { display: flex; gap: .75rem; align-items: end; flex-wrap: wrap; margin-bottom: 1rem; }
+.toolbar .field { flex: 1 1 240px; }
+.count-note { color: var(--muted); font-size: .9rem; margin: 0 0 .75rem; }
+
+details.review-list summary { cursor: pointer; font-weight: 700; padding: .3rem 0; }
+.chips { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .6rem; padding: 0; list-style: none; }
+.chips li { background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: .25rem .7rem; font-size: .9rem; }
+.chips li span { color: var(--muted); }
+
+/* ---------- Tamamlama ---------- */
+.complete { text-align: center; }
+.complete .big { font-size: 2.6rem; margin: 0; }
+.complete h2 { font-size: 1.8rem; }
+
+.danger-zone { text-align: center; margin-top: .5rem; }
+.link-btn { background: none; border: none; color: var(--danger); font: inherit; font-weight: 700; text-decoration: underline; cursor: pointer; padding: .5rem; }
+
+/* ---------- Diyalog ---------- */
+dialog { border: none; border-radius: var(--radius); padding: 0; max-width: 440px; width: calc(100% - 2rem); box-shadow: var(--shadow); color: var(--ink); }
+dialog::backdrop { background: rgba(42, 28, 26, .55); }
+.dialog-body { padding: 1.5rem; background: var(--card); }
+
+.footer { text-align: center; font-size: .85rem; padding-block: 1rem; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); color: var(--ink); }
+.footer p { display: inline-block; margin: 0; background: rgba(255, 250, 246, .9); padding: .35rem .9rem; border-radius: 999px; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+/* ---------- Mobil ---------- */
+@media (max-width: 760px) {
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .actions { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .topbar-inner { justify-content: center; }
+  .nav { width: 100%; justify-content: space-between; }
+  .nav a { padding: .4rem .55rem; font-size: .88rem; }
+  .card { padding: 1.15rem; }
+  .word-card { padding: 1.5rem 1rem; }
+  main { padding-block-start: 1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}
+
+/* Düzeltmeler */
+[hidden] { display: none !important; }
+.stat-value, .word, .list-word, h1, h2 { font-variant-numeric: lining-nums; }
+.danger-zone .link-btn { background: rgba(255, 250, 246, .92); border-radius: 999px; padding: .4rem 1rem; }
+
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#anasayfa" aria-label="Kelime Butiği ana sayfa">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-text">Kelime Butiği <small>AGS İngilizce</small></span>
+      </a>
+      <nav class="nav" aria-label="Ana menü">
+        <a href="#anasayfa" data-nav="home">Ana sayfa</a>
+        <a href="#ogren" data-nav="learn">Öğren</a>
+        <a href="#tekrar" data-nav="review">Tekrar <span class="badge" id="reviewBadge" aria-label="tekrar bekleyen kelime">0</span></a>
+        <a href="#bilinenler" data-nav="known">Bilinenler</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="storageWarning" class="notice notice-warn" hidden>
+      Tarayıcın yerel depolamaya izin vermiyor. Bu oturumda çalışabilirsin ama ilerlemen kaydedilmeyecek.
+    </div>
+    <section id="view" aria-live="polite"></section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <dialog id="resetDialog" aria-labelledby="resetTitle" aria-describedby="resetDesc">
+    <form method="dialog" class="dialog-body">
+      <h2 id="resetTitle">İlerlemeyi sıfırla</h2>
+      <p id="resetDesc">Bilinen kelimelerin, yazdığın tüm cümleler ve tekrar listen silinecek. Bu işlem geri alınamaz. Emin misin?</p>
+      <div class="btn-row">
+        <button value="cancel" class="btn btn-ghost" autofocus>Vazgeç</button>
+        <button value="confirm" class="btn btn-danger">Evet, sıfırla</button>
+      </div>
+    </form>
+  </dialog>
+
+  <footer class="footer">
+    <p>800 kelime · B1–B2 · İlerlemen yalnızca bu tarayıcıda saklanır.</p>
+  </footer>
+
+  <script>
+/*
+ * AGS İngilizce kelime listesi (B1–B2)
+ * Biçim: ingilizce|tür|türkçe anlam
+ * Türler: n = isim, v = fiil, adj = sıfat, adv = zarf, prep = edat, conj = bağlaç
+ * Yazım: Oxford İngilizcesi (behaviour, organize, analyse).
+ * Bu liste uygulama açılırken otomatik doğrulanır (toplam 800, benzersiz, eksiksiz).
+ */
+var WORD_DATA = `
+abandon|v|terk etmek, bırakmak
+ability|n|yetenek, beceri
+abroad|adv|yurt dışında, yurt dışına
+absence|n|yokluk, devamsızlık
+absolute|adj|kesin, mutlak
+absorb|v|emmek, içine çekmek
+abstract|adj|soyut
+academic|adj|akademik
+accent|n|aksan, şive
+accept|v|kabul etmek
+access|n|erişim
+accommodation|n|konaklama, kalacak yer
+accompany|v|eşlik etmek
+accomplish|v|başarmak, tamamlamak
+account|n|hesap
+accurate|adj|doğru, kesin
+accuse|v|suçlamak
+achieve|v|başarmak, elde etmek
+achievement|n|başarı
+acknowledge|v|kabul etmek, onaylamak
+acquire|v|edinmek, kazanmak
+adapt|v|uyum sağlamak, uyarlamak
+addiction|n|bağımlılık
+adequate|adj|yeterli
+adjust|v|ayarlamak, uyum sağlamak
+admire|v|hayran olmak
+admission|n|kabul, giriş
+admit|v|itiraf etmek, kabul etmek
+adopt|v|benimsemek, evlat edinmek
+advantage|n|avantaj, üstünlük
+adventure|n|macera
+advertise|v|reklamını yapmak
+advice|n|tavsiye, öğüt
+affect|v|etkilemek
+afford|v|(parası) yetmek, karşılayabilmek
+aggressive|adj|saldırgan
+agreement|n|anlaşma
+agriculture|n|tarım
+aim|n|amaç, hedef
+alternative|n|alternatif, seçenek
+although|conj|-mesine rağmen, gerçi
+ambition|n|hırs, büyük istek
+amount|n|miktar
+analyse|v|analiz etmek, çözümlemek
+ancient|adj|antik, çok eski
+anger|n|öfke
+anniversary|n|yıl dönümü
+announce|v|duyurmak, ilan etmek
+annoy|v|sinirlendirmek, rahatsız etmek
+annual|adj|yıllık
+anticipate|v|öngörmek, beklemek
+anxiety|n|kaygı, endişe
+anxious|adj|endişeli, kaygılı
+apologize|v|özür dilemek
+apparent|adj|belli, açık
+appeal|v|cazip gelmek, başvurmak
+appearance|n|görünüş, dış görünüm
+appetite|n|iştah
+applicant|n|başvuru sahibi, aday
+appointment|n|randevu
+appreciate|v|takdir etmek, minnettar olmak
+approach|n|yaklaşım
+appropriate|adj|uygun
+approve|v|onaylamak
+approximately|adv|yaklaşık olarak
+argue|v|tartışmak
+argument|n|tartışma, argüman
+arrange|v|düzenlemek, ayarlamak
+arrest|v|tutuklamak
+arrival|n|varış
+article|n|makale
+artificial|adj|yapay
+ashamed|adj|utanmış, mahcup
+aspect|n|yön, boyut
+assess|v|değerlendirmek
+assignment|n|ödev, görev
+assist|v|yardım etmek
+assume|v|varsaymak
+astonished|adj|çok şaşırmış, hayrete düşmüş
+atmosphere|n|atmosfer, ortam
+attach|v|eklemek, iliştirmek
+attack|v|saldırmak
+attempt|n|girişim, deneme
+attend|v|katılmak, devam etmek
+attitude|n|tutum, tavır
+attract|v|çekmek, cezbetmek
+attractive|adj|çekici
+audience|n|seyirci, dinleyici
+author|n|yazar
+authority|n|yetki, otorite
+available|adj|mevcut, müsait
+average|adj|ortalama
+avoid|v|kaçınmak
+award|n|ödül
+aware|adj|farkında
+awful|adj|berbat, korkunç
+awkward|adj|garip, beceriksiz
+background|n|geçmiş, arka plan
+balance|n|denge
+ban|v|yasaklamak
+bargain|n|kelepir, pazarlık
+barrier|n|engel, bariyer
+basis|n|temel, esas
+behave|v|davranmak
+behaviour|n|davranış
+belief|n|inanç
+belong|v|ait olmak
+benefit|n|fayda, yarar
+betray|v|ihanet etmek
+beyond|prep|ötesinde
+bitter|adj|acı
+blame|v|suçlamak
+blank|adj|boş
+bond|n|bağ
+boost|v|artırmak, desteklemek
+border|n|sınır
+bother|v|rahatsız etmek
+branch|n|dal, şube
+breath|n|nefes
+breathe|v|nefes almak
+brief|adj|kısa
+brilliant|adj|parlak, harika
+broadcast|v|yayınlamak
+budget|n|bütçe
+burden|n|yük
+calculate|v|hesaplamak
+campaign|n|kampanya
+cancel|v|iptal etmek
+candidate|n|aday
+capable|adj|yetenekli, muktedir
+capacity|n|kapasite
+capture|v|yakalamak, ele geçirmek
+career|n|kariyer
+cause|v|neden olmak
+cautious|adj|temkinli, dikkatli
+ceremony|n|tören
+certain|adj|emin, kesin
+challenge|n|zorluk, meydan okuma
+charge|n|ücret
+charity|n|hayır kurumu, yardım
+chemical|n|kimyasal madde
+circumstance|n|durum, koşul
+citizen|n|vatandaş
+claim|v|iddia etmek
+classify|v|sınıflandırmak
+climate|n|iklim
+clue|n|ipucu
+coast|n|kıyı, sahil
+collapse|v|çökmek, yıkılmak
+colleague|n|iş arkadaşı, meslektaş
+combine|v|birleştirmek
+command|n|emir, komut
+commit|v|(suç) işlemek, kendini adamak
+common|adj|yaygın, ortak
+communicate|v|iletişim kurmak
+community|n|topluluk
+compare|v|karşılaştırmak
+compete|v|yarışmak, rekabet etmek
+competition|n|yarışma, rekabet
+complain|v|şikâyet etmek
+complex|adj|karmaşık
+complicated|adj|karışık, girift
+concentrate|v|odaklanmak, yoğunlaşmak
+concept|n|kavram
+concern|n|endişe, kaygı
+conclusion|n|sonuç, yargı
+condition|n|durum, koşul
+conduct|v|yürütmek, yönetmek
+confess|v|itiraf etmek
+confidence|n|güven, özgüven
+confirm|v|onaylamak, doğrulamak
+conflict|n|çatışma, anlaşmazlık
+confuse|v|kafasını karıştırmak
+congratulate|v|tebrik etmek
+connect|v|bağlamak
+conscious|adj|bilinçli
+consequence|n|sonuç
+conservation|n|koruma
+consider|v|düşünmek, göz önünde bulundurmak
+consist|v|oluşmak
+constant|adj|sürekli, sabit
+construct|v|inşa etmek
+consume|v|tüketmek
+contact|n|iletişim, temas
+contain|v|içermek
+content|n|içerik
+context|n|bağlam
+continent|n|kıta
+contract|n|sözleşme
+contrast|n|zıtlık, karşıtlık
+contribute|v|katkıda bulunmak
+convenient|adj|uygun, elverişli
+convince|v|ikna etmek
+cooperate|v|iş birliği yapmak
+cope|v|başa çıkmak
+courage|n|cesaret
+crash|n|kaza, çarpışma
+creative|adj|yaratıcı
+crime|n|suç
+criminal|n|suçlu
+criticize|v|eleştirmek
+crucial|adj|çok önemli, hayati
+cruel|adj|zalim, acımasız
+cure|n|tedavi, çare
+curious|adj|meraklı
+currency|n|para birimi
+current|adj|güncel, şimdiki
+custom|n|gelenek, âdet
+damage|n|hasar, zarar
+deadline|n|son teslim tarihi
+deal|v|ilgilenmek, uğraşmak
+debate|n|tartışma, münazara
+debt|n|borç
+decade|n|on yıl
+decent|adj|düzgün, makul
+declare|v|beyan etmek, ilan etmek
+decline|v|azalmak, reddetmek
+decorate|v|süslemek, dekore etmek
+decrease|v|azalmak, azaltmak
+dedicate|v|adamak
+defeat|v|yenmek, mağlup etmek
+defend|v|savunmak
+definite|adj|kesin, belirli
+degree|n|derece, diploma
+delay|n|gecikme
+delete|v|silmek
+delighted|adj|çok memnun
+deliver|v|teslim etmek
+demand|n|talep
+demonstrate|v|göstermek, kanıtlamak
+deny|v|inkâr etmek, reddetmek
+depend|v|bağlı olmak
+depressed|adj|depresif, bunalımlı
+deserve|v|hak etmek
+desire|n|arzu, istek
+desperate|adj|çaresiz, umutsuz
+despite|prep|-e rağmen
+destination|n|varış yeri, hedef
+destroy|v|yok etmek
+detect|v|tespit etmek, fark etmek
+determine|v|belirlemek
+develop|v|geliştirmek
+device|n|cihaz, alet
+dialogue|n|diyalog, karşılıklı konuşma
+diet|n|beslenme düzeni, diyet
+direct|adj|doğrudan
+disabled|adj|engelli
+disadvantage|n|dezavantaj
+disagree|v|aynı fikirde olmamak
+disappear|v|kaybolmak, gözden kaybolmak
+disappointed|adj|hayal kırıklığına uğramış
+disaster|n|felaket
+discipline|n|disiplin
+discover|v|keşfetmek
+disease|n|hastalık
+dishonest|adj|sahtekâr, dürüst olmayan
+dismiss|v|görevden almak, reddetmek
+display|v|sergilemek, göstermek
+distinguish|v|ayırt etmek
+distribute|v|dağıtmak
+disturb|v|rahatsız etmek
+diverse|adj|çeşitli, farklı
+divide|v|bölmek
+domestic|adj|yerli, evle ilgili
+donate|v|bağışlamak
+doubt|n|şüphe
+drought|n|kuraklık
+due|adj|beklenen, vadesi gelmiş
+duty|n|görev
+eager|adj|istekli, hevesli
+earthquake|n|deprem
+edge|n|kenar
+edit|v|düzenlemek
+educate|v|eğitmek
+effective|adj|etkili
+efficient|adj|verimli
+effort|n|çaba
+elderly|adj|yaşlı
+elect|v|seçmek
+elegant|adj|zarif
+element|n|öğe, unsur
+eliminate|v|ortadan kaldırmak, elemek
+embarrassed|adj|utanmış, mahcup olmuş
+emerge|v|ortaya çıkmak
+emergency|n|acil durum
+emotion|n|duygu
+emphasize|v|vurgulamak
+employ|v|istihdam etmek, işe almak
+employee|n|çalışan
+encounter|v|karşılaşmak
+encourage|v|cesaretlendirmek, teşvik etmek
+endangered|adj|nesli tükenmekte olan
+engage|v|katılmak, ilgisini çekmek
+enhance|v|geliştirmek, artırmak
+enormous|adj|devasa, kocaman
+ensure|v|sağlamak, garanti etmek
+entertain|v|eğlendirmek
+enthusiastic|adj|hevesli, coşkulu
+entire|adj|bütün, tüm
+environment|n|çevre
+equal|adj|eşit
+equipment|n|ekipman, donanım
+escape|v|kaçmak
+essay|n|kompozisyon, deneme
+essential|adj|gerekli, temel
+establish|v|kurmak
+estimate|v|tahmin etmek
+evaluate|v|değerlendirmek
+eventually|adv|sonunda
+evidence|n|kanıt
+exaggerate|v|abartmak
+examine|v|incelemek
+exception|n|istisna
+exchange|n|değişim, takas
+exclude|v|hariç tutmak, dışlamak
+excuse|n|bahane, mazeret
+exhausted|adj|bitkin, çok yorgun
+exhibition|n|sergi
+exist|v|var olmak
+expand|v|genişlemek, genişletmek
+expect|v|beklemek, ummak
+expense|n|masraf, gider
+experience|n|deneyim
+experiment|n|deney
+expert|n|uzman
+explore|v|keşfetmek
+export|v|ihraç etmek
+expose|v|maruz bırakmak, ortaya çıkarmak
+express|v|ifade etmek
+extend|v|uzatmak, genişletmek
+external|adj|dış, harici
+extinct|adj|nesli tükenmiş
+extraordinary|adj|olağanüstü
+extreme|adj|aşırı, uç
+facility|n|tesis, olanak
+factor|n|etken, faktör
+fail|v|başarısız olmak
+fair|adj|adil
+faith|n|inanç, iman
+familiar|adj|tanıdık, bildik
+fault|n|hata, kusur
+favour|n|iyilik
+feature|n|özellik
+fee|n|ücret
+feedback|n|geri bildirim
+fiction|n|kurgu
+figure|n|rakam, figür
+finance|n|finans, maliye
+firm|n|firma, şirket
+flavour|n|tat, lezzet
+flexible|adj|esnek
+flood|n|sel
+fluent|adj|akıcı
+focus|v|odaklanmak
+fold|v|katlamak
+force|v|zorlamak
+forecast|n|tahmin, hava tahmini
+forgive|v|affetmek
+formal|adj|resmî
+fortunate|adj|şanslı, talihli
+freedom|n|özgürlük
+frequent|adj|sık
+frustrated|adj|bıkkın, hüsrana uğramış
+fuel|n|yakıt
+function|n|işlev
+fund|n|fon, kaynak
+fundamental|adj|temel, esaslı
+furious|adj|öfkeli, çok kızgın
+furthermore|adv|ayrıca, dahası
+gain|v|kazanmak, elde etmek
+gap|n|boşluk, açık
+gather|v|toplamak, toplanmak
+generate|v|üretmek, oluşturmak
+generation|n|nesil, kuşak
+generous|adj|cömert
+genuine|adj|gerçek, samimi
+global|adj|küresel
+gossip|n|dedikodu
+govern|v|yönetmek
+government|n|hükûmet
+grade|n|not, sınıf
+gradually|adv|yavaş yavaş, giderek
+grateful|adj|minnettar
+grief|n|keder, yas
+guarantee|v|garanti etmek
+guidance|n|rehberlik
+guilty|adj|suçlu
+habit|n|alışkanlık
+handle|v|başa çıkmak, ele almak
+hardly|adv|neredeyse hiç, güçlükle
+harm|n|zarar
+harmful|adj|zararlı
+heal|v|iyileşmek, iyileştirmek
+heritage|n|miras
+hesitate|v|tereddüt etmek
+highlight|v|vurgulamak, öne çıkarmak
+hire|v|kiralamak, işe almak
+horror|n|dehşet, korku
+hospitality|n|misafirperverlik
+host|n|ev sahibi
+household|n|hane, ev halkı
+however|adv|ancak, fakat
+humble|adj|alçakgönüllü
+humour|n|mizah
+identify|v|tanımlamak, belirlemek
+identity|n|kimlik
+ignore|v|görmezden gelmek
+illegal|adj|yasa dışı
+illustrate|v|örneklerle açıklamak, resimlemek
+image|n|görüntü, imaj
+immigrant|n|göçmen
+impact|n|etki
+implement|v|uygulamak
+imply|v|ima etmek
+import|v|ithal etmek
+impose|v|dayatmak
+impress|v|etkilemek, hayran bırakmak
+impression|n|izlenim
+improve|v|geliştirmek, iyileştirmek
+incident|n|olay
+include|v|içermek, dâhil etmek
+income|n|gelir
+increase|v|artmak, artırmak
+incredible|adj|inanılmaz
+independent|adj|bağımsız
+indicate|v|göstermek, belirtmek
+individual|n|birey
+industry|n|sanayi, endüstri
+inevitable|adj|kaçınılmaz
+infection|n|enfeksiyon
+influence|n|etki, nüfuz
+inform|v|bilgilendirmek
+ingredient|n|malzeme, bileşen
+inherit|v|miras almak
+initial|adj|ilk, başlangıçtaki
+injure|v|yaralamak
+injury|n|yaralanma
+innocent|adj|masum
+innovation|n|yenilik
+insist|v|ısrar etmek
+inspire|v|ilham vermek
+install|v|kurmak, yüklemek
+instance|n|örnek, durum
+instead|adv|onun yerine
+institution|n|kurum
+instruction|n|talimat
+instrument|n|alet, enstrüman
+insurance|n|sigorta
+intend|v|niyet etmek
+intense|adj|yoğun, şiddetli
+intention|n|niyet
+interact|v|etkileşimde bulunmak
+interrupt|v|sözünü kesmek, yarıda kesmek
+invent|v|icat etmek
+invest|v|yatırım yapmak
+investigate|v|araştırmak, soruşturmak
+involve|v|içermek, kapsamak
+isolated|adj|izole, ıssız
+issue|n|konu, sorun
+judge|v|yargılamak
+justice|n|adalet
+justify|v|haklı çıkarmak, gerekçelendirmek
+keen|adj|hevesli, meraklı
+knowledge|n|bilgi
+labour|n|emek, iş gücü
+lack|n|eksiklik
+landscape|n|manzara
+launch|v|başlatmak, piyasaya sürmek
+lead|v|yol göstermek, öncülük etmek
+lecture|n|ders, konferans
+legal|adj|yasal
+leisure|n|boş zaman
+lend|v|ödünç vermek
+liberty|n|hürriyet, serbestlik
+literature|n|edebiyat
+loan|n|kredi, borç
+locate|v|yerini bulmak
+logical|adj|mantıklı
+loyal|adj|sadık
+luxury|n|lüks
+maintain|v|sürdürmek, korumak
+major|adj|büyük, önemli
+majority|n|çoğunluk
+manage|v|yönetmek, başarmak
+manner|n|tarz, tavır
+manufacture|v|üretmek, imal etmek
+massive|adj|devasa, çok büyük
+mature|adj|olgun
+meanwhile|adv|bu arada
+measure|v|ölçmek
+memorable|adj|unutulmaz, akılda kalıcı
+mental|adj|zihinsel
+mention|v|bahsetmek
+method|n|yöntem
+minor|adj|küçük, önemsiz
+minority|n|azınlık
+miserable|adj|perişan, mutsuz
+mission|n|görev, misyon
+moderate|adj|ılımlı, orta
+monitor|v|izlemek, denetlemek
+mood|n|ruh hâli
+moreover|adv|üstelik
+motivate|v|motive etmek
+mysterious|adj|gizemli
+narrow|adj|dar
+nation|n|ulus, millet
+native|adj|yerli, ana (dil)
+neglect|v|ihmal etmek
+negotiate|v|müzakere etmek
+neighbourhood|n|mahalle
+nervous|adj|gergin, tedirgin
+neutral|adj|tarafsız
+nevertheless|adv|yine de, buna rağmen
+notice|v|fark etmek
+numerous|adj|çok sayıda
+nutrition|n|beslenme
+obey|v|itaat etmek
+objective|n|amaç, hedef
+obligation|n|yükümlülük, zorunluluk
+observe|v|gözlemlemek
+obstacle|n|engel
+obtain|v|elde etmek
+obvious|adj|açık, belli
+occasion|n|fırsat, özel gün
+occupation|n|meslek
+occur|v|meydana gelmek, olmak
+offend|v|gücendirmek, kırmak
+offer|v|teklif etmek, sunmak
+official|adj|resmî
+operate|v|çalıştırmak, ameliyat etmek
+opinion|n|fikir, görüş
+opponent|n|rakip
+opportunity|n|fırsat
+oppose|v|karşı çıkmak
+optimistic|adj|iyimser
+option|n|seçenek
+ordinary|adj|sıradan
+organize|v|düzenlemek, organize etmek
+origin|n|köken
+otherwise|adv|aksi takdirde
+outcome|n|sonuç
+outstanding|adj|olağanüstü, seçkin
+overcome|v|üstesinden gelmek
+overseas|adv|denizaşırı, yurt dışında
+own|v|sahip olmak
+pace|n|hız, tempo
+participate|v|katılmak
+particular|adj|belirli, özel
+passion|n|tutku
+path|n|patika, yol
+patience|n|sabır
+pattern|n|desen, örüntü
+peaceful|adj|huzurlu, barışçıl
+penalty|n|ceza
+perceive|v|algılamak
+perform|v|gerçekleştirmek, sahnelemek
+permanent|adj|kalıcı
+permission|n|izin
+persuade|v|ikna etmek
+phenomenon|n|olgu, fenomen
+pleasant|adj|hoş, keyifli
+pleasure|n|zevk, memnuniyet
+policy|n|politika, ilke
+politics|n|siyaset
+pollution|n|kirlilik
+population|n|nüfus
+portion|n|porsiyon, pay
+possess|v|sahip olmak, elinde bulundurmak
+possibility|n|olasılık
+postpone|v|ertelemek
+potential|adj|potansiyel, olası
+poverty|n|yoksulluk
+practical|adj|pratik, kullanışlı
+praise|v|övmek
+precious|adj|değerli, kıymetli
+precise|adj|kesin, tam
+predict|v|önceden kestirmek, tahmin etmek
+pregnant|adj|hamile
+prejudice|n|önyargı
+presence|n|varlık, mevcudiyet
+preserve|v|korumak, muhafaza etmek
+pressure|n|baskı
+pretend|v|-miş gibi yapmak
+prevent|v|önlemek
+previous|adj|önceki
+pride|n|gurur
+primary|adj|birincil, temel
+principle|n|ilke, prensip
+priority|n|öncelik
+privacy|n|mahremiyet, gizlilik
+procedure|n|prosedür, işlem
+process|n|süreç
+produce|v|üretmek
+profession|n|meslek
+profit|n|kâr
+progress|n|ilerleme
+prohibit|v|yasaklamak
+promote|v|tanıtmak, terfi ettirmek
+proof|n|kanıt, ispat
+property|n|mülk
+proportion|n|oran, orantı
+proposal|n|öneri, teklif
+prosperity|n|refah
+protest|n|protesto
+prove|v|kanıtlamak
+provide|v|sağlamak
+publish|v|yayımlamak
+punish|v|cezalandırmak
+purchase|v|satın almak
+pursue|v|peşinden koşmak, sürdürmek
+qualification|n|nitelik, yeterlilik
+quantity|n|miktar, nicelik
+range|n|aralık, yelpaze
+rapid|adj|hızlı
+rare|adj|nadir
+rate|n|oran
+react|v|tepki vermek
+realistic|adj|gerçekçi
+reasonable|adj|makul, mantıklı
+recall|v|hatırlamak
+receipt|n|fiş, makbuz
+recent|adj|son, yakın zamandaki
+recognize|v|tanımak, fark etmek
+recommend|v|tavsiye etmek, önermek
+recover|v|iyileşmek
+recruit|v|eleman almak
+reduce|v|azaltmak
+refer|v|değinmek, atıfta bulunmak
+reflect|v|yansıtmak
+refugee|n|mülteci
+refuse|v|reddetmek
+regard|v|saymak, gözüyle bakmak
+region|n|bölge
+register|v|kaydolmak, kaydetmek
+regret|v|pişman olmak
+reject|v|reddetmek
+relationship|n|ilişki
+relative|n|akraba
+release|v|serbest bırakmak, yayınlamak
+relevant|adj|ilgili, alakalı
+reliable|adj|güvenilir
+relief|n|rahatlama
+reluctant|adj|isteksiz
+rely|v|güvenmek, bel bağlamak
+remain|v|kalmak
+remarkable|adj|dikkat çekici, olağanüstü
+remote|adj|uzak
+remove|v|kaldırmak, çıkarmak
+replace|v|yerini almak, değiştirmek
+represent|v|temsil etmek
+reputation|n|itibar, ün
+request|n|istek, talep
+require|v|gerektirmek
+rescue|v|kurtarmak
+research|n|araştırma
+resemble|v|benzemek
+resident|n|sakin, oturan
+resign|v|istifa etmek
+resist|v|direnmek
+resolve|v|çözmek, çözüme kavuşturmak
+resource|n|kaynak
+respect|n|saygı
+respond|v|yanıt vermek
+responsible|adj|sorumlu
+restore|v|onarmak, eski hâline getirmek
+restriction|n|kısıtlama
+retire|v|emekli olmak
+reveal|v|ortaya çıkarmak, açığa vurmak
+revenge|n|intikam
+review|v|gözden geçirmek
+revise|v|düzeltmek, tekrar etmek
+reward|n|ödül
+ridiculous|adj|gülünç, saçma
+routine|n|rutin, alışılmış düzen
+rural|adj|kırsal
+sacrifice|n|fedakârlık
+satisfy|v|tatmin etmek, memnun etmek
+schedule|n|program, takvim
+scholarship|n|burs
+secure|adj|güvenli
+seek|v|aramak
+select|v|seçmek
+sensible|adj|mantıklı, makul
+sensitive|adj|hassas, duyarlı
+separate|adj|ayrı
+series|n|dizi, seri
+settle|v|yerleşmek, çözmek
+severe|adj|şiddetli, ağır
+shame|n|utanç
+shelter|n|barınak, sığınak
+shift|n|vardiya, değişim
+shortage|n|kıtlık, eksiklik
+significant|adj|önemli, anlamlı
+sincere|adj|içten, samimi
+slight|adj|hafif, az
+smooth|adj|pürüzsüz
+solution|n|çözüm
+source|n|kaynak, köken
+species|n|tür
+spoil|v|şımartmak, bozmak
+spread|v|yaymak, yayılmak
+stable|adj|istikrarlı, dengeli
+statement|n|açıklama, ifade
+status|n|durum, statü
+steady|adj|sabit, düzenli
+stimulate|v|teşvik etmek, uyarmak
+strategy|n|strateji
+strength|n|güç, kuvvet
+strict|adj|katı, sıkı
+structure|n|yapı
+struggle|v|mücadele etmek
+stubborn|adj|inatçı
+submit|v|teslim etmek, sunmak
+substance|n|madde
+succeed|v|başarmak, başarılı olmak
+sufficient|adj|yeterli
+suggest|v|önermek
+suitable|adj|uygun
+summary|n|özet
+superior|adj|üstün
+supply|n|tedarik, arz
+support|v|desteklemek
+suppose|v|varsaymak, sanmak
+surface|n|yüzey
+surgery|n|ameliyat
+surround|v|çevrelemek, kuşatmak
+survey|n|anket
+survive|v|hayatta kalmak
+suspect|v|şüphelenmek
+sustainable|adj|sürdürülebilir
+sympathy|n|sempati, anlayış
+symptom|n|belirti
+target|n|hedef
+tax|n|vergi
+technique|n|teknik
+temporary|adj|geçici
+tend|v|eğiliminde olmak
+tension|n|gerginlik
+territory|n|bölge, toprak
+theory|n|teori, kuram
+therefore|adv|bu yüzden, bu nedenle
+thorough|adj|kapsamlı, titiz
+threat|n|tehdit
+threaten|v|tehdit etmek
+thrilled|adj|çok heyecanlı, çok mutlu
+throughout|prep|boyunca
+thus|adv|böylece, bu nedenle
+tolerate|v|hoş görmek, katlanmak
+tough|adj|zor, sert
+towards|prep|-e doğru
+tradition|n|gelenek
+transfer|v|aktarmak, transfer etmek
+transform|v|dönüştürmek
+treat|v|davranmak, tedavi etmek
+treatment|n|tedavi
+tremendous|adj|muazzam, müthiş
+trend|n|eğilim, trend
+trust|v|güvenmek
+ultimate|adj|nihai, en son
+unemployment|n|işsizlik
+unfair|adj|haksız, adaletsiz
+unique|adj|eşsiz, benzersiz
+unite|v|birleştirmek, birleşmek
+universe|n|evren
+unless|conj|-medikçe, -mezse
+unlike|prep|-in aksine, -den farklı olarak
+unusual|adj|olağan dışı, alışılmadık
+upset|adj|üzgün, keyifsiz
+urban|adj|kentsel
+urgent|adj|acil
+vacancy|n|boş kadro, boş oda
+vague|adj|belirsiz, muğlak
+valid|adj|geçerli
+valuable|adj|değerli
+variety|n|çeşitlilik
+various|adj|çeşitli
+vary|v|değişmek, farklılık göstermek
+vast|adj|geniş, uçsuz bucaksız
+vehicle|n|araç, taşıt
+version|n|sürüm, versiyon
+victim|n|kurban, mağdur
+violence|n|şiddet
+virtual|adj|sanal
+visible|adj|görünür
+vision|n|görme, vizyon
+vital|adj|hayati, çok önemli
+vocabulary|n|kelime bilgisi, sözcük dağarcığı
+volunteer|n|gönüllü
+wage|n|ücret, yevmiye
+waste|v|israf etmek, boşa harcamak
+wealth|n|zenginlik, servet
+weird|adj|tuhaf, acayip
+welfare|n|refah, sosyal yardım
+whereas|conj|oysa, -iken
+whether|conj|-ip -mediği, olup olmadığı
+wisdom|n|bilgelik
+withdraw|v|geri çekmek, para çekmek
+within|prep|içinde
+witness|n|tanık
+worthwhile|adj|zahmete değer
+`;
+
+if (typeof module !== "undefined") module.exports = WORD_DATA;
+
+</script>
+  <script>
+/* Kelime Butiği — AGS İngilizce kelime öğrenme uygulaması (harici API yok) */
+(function () {
+  "use strict";
+
+  var EXPECTED_TOTAL = 800;
+  var STORAGE_KEY = "kelime-butigi-v1";
+  var POS_LABELS = { n: "isim", v: "fiil", adj: "sıfat", adv: "zarf", prep: "edat", conj: "bağlaç" };
+
+  /* ------------------------------------------------------------------ */
+  /* İngilizcenin konuşulduğu ülkeler: kısa bilgi notları                */
+  /* ------------------------------------------------------------------ */
+  var COUNTRIES = [
+    {
+      code: "UK", name: "Birleşik Krallık", capital: "Londra",
+      lang: "İngilizcenin doğduğu ülke. Ülke genelinde yasayla belirlenmiş bir resmî dil yoktur ama İngilizce fiilen ana dildir. Galler'de Galce de resmî statüdedir.",
+      note: "Aksan çeşitliliği çok zengindir: Liverpool'da “Scouse”, Newcastle'da “Geordie” aksanı duyarsın. Asansöre “lift”, daireye “flat” denir; yazımda “colour”, “centre” kullanılır."
+    },
+    {
+      code: "ABD", name: "Amerika Birleşik Devletleri", capital: "Washington, D.C.",
+      lang: "Ana dili İngilizce olan en kalabalık nüfus bu ülkededir. İspanyolca da milyonlarca kişinin evde konuştuğu yaygın bir dildir.",
+      note: "Amerikan yazımı İngiliz yazımından ayrılır: “color”, “center”, “organize”. Daireye “apartment”, asansöre “elevator”, sonbahara “fall” denir."
+    },
+    {
+      code: "CA", name: "Kanada", capital: "Ottawa",
+      lang: "İki resmî dili vardır: İngilizce ve Fransızca. Quebec eyaletinde çoğunluğun ana dili Fransızcadır.",
+      note: "Kanada yazımı iki geleneği karıştırır: “colour” yazılır ama “organize” tercih edilir. Alfabenin son harfi Amerika'daki gibi “zee” değil, “zed” diye okunur; cümle sonundaki “eh?” de meşhurdur."
+    },
+    {
+      code: "AU", name: "Avustralya", capital: "Kanberra",
+      lang: "Yasada tanımlanmış bir resmî dil yoktur ama İngilizce fiilen ulusal dildir. Yazım İngiliz İngilizcesine yakındır.",
+      note: "Avustralyalılar kelimeleri kısaltmayı sever: “arvo” öğleden sonra, “brekkie” kahvaltı, “barbie” mangal demektir. Günlük selamlaşma “G'day”dir."
+    },
+    {
+      code: "NZ", name: "Yeni Zelanda", capital: "Wellington",
+      lang: "Resmî diller Maori dili ve Yeni Zelanda İşaret Dili'dir. İngilizce ise yasal olarak resmî ilan edilmemiş olsa da en yaygın dildir.",
+      note: "Günlük İngilizcede Maori kelimeleri sık geçer: “kia ora” merhaba ya da teşekkürler, “whānau” aile anlamına gelir. Yeni Zelandalılara “Kiwi” denir."
+    },
+    {
+      code: "IE", name: "İrlanda", capital: "Dublin",
+      lang: "Anayasaya göre birinci resmî dil İrlandaca (Gaeilge), ikinci resmî dil İngilizcedir. Günlük hayatta halkın büyük çoğunluğu İngilizce konuşur.",
+      note: "İrlanda İngilizcesinde “grand” iyi ya da tamam demektir. “What's the craic?” ise “Ne var ne yok?” anlamında samimi bir sorudur."
+    }
+  ];
+
+  /* ------------------------------------------------------------------ */
+  /* Kelime verisini doğrula: 800 kayıt, benzersiz, eksiksiz             */
+  /* ------------------------------------------------------------------ */
+  function parseAndValidate(raw) {
+    var errors = [];
+    var words = [];
+    if (typeof raw !== "string") {
+      return { errors: ["Kelime verisi (js/words.js) yüklenemedi."], words: [] };
+    }
+    var seen = Object.create(null);
+    raw.split(/\r?\n/).forEach(function (line, idx) {
+      line = line.trim();
+      if (!line) return;
+      var parts = line.split("|").map(function (p) { return p.trim(); });
+      if (parts.length !== 3 || parts.some(function (p) { return !p; })) {
+        errors.push("Eksik kayıt: “" + line + "”");
+        return;
+      }
+      var en = parts[0], pos = parts[1], tr = parts[2];
+      if (!/^[a-z]+$/.test(en)) errors.push("Geçersiz İngilizce kelime: “" + en + "”");
+      if (!POS_LABELS[pos]) errors.push("“" + en + "” için geçersiz kelime türü: " + pos);
+      var key = en.toLowerCase();
+      if (seen[key]) errors.push("Tekrar eden kelime: “" + en + "”");
+      seen[key] = true;
+      words.push({ en: en, pos: pos, tr: tr });
+    });
+    if (words.length !== EXPECTED_TOTAL) {
+      errors.push("Kelime sayısı " + words.length + "; tam olarak " + EXPECTED_TOTAL + " olmalı.");
+    }
+    return { errors: errors, words: words };
+  }
+
+  var parsed = parseAndValidate(window.WORD_DATA);
+  var view = document.getElementById("view");
+
+  if (parsed.errors.length) {
+    document.querySelector(".nav").hidden = true;
+    view.innerHTML =
+      '<div class="card card-narrow"><h1>Kelime listesi hatalı</h1>' +
+      '<p class="lead">Uygulama hatalı bir listeyle çalışmaz. Lütfen js/words.js dosyasını düzelt.</p>' +
+      '<ul class="error" style="padding-left:1.5rem">' +
+      parsed.errors.slice(0, 50).map(function (e) { return "<li>" + escapeHtml(e) + "</li>"; }).join("") +
+      "</ul></div>";
+    console.error("Kelime listesi doğrulanamadı:", parsed.errors);
+    return;
+  }
+
+  var WORDS = parsed.words;
+  var BY_EN = Object.create(null);
+  WORDS.forEach(function (w) { BY_EN[w.en] = w; });
+
+  // Yeni kelimeler alfabetik değil, sabit bir karışık sırayla gelsin (her cihazda aynı sıra).
+  var ORDER = seededShuffle(WORDS.map(function (w) { return w.en; }), 20261123);
+
+  function seededShuffle(arr, seed) {
+    var a = arr.slice();
+    var s = seed >>> 0;
+    function rnd() { // mulberry32
+      s = (s + 0x6D2B79F5) >>> 0;
+      var t = s;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    }
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(rnd() * (i + 1));
+      var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+    }
+    return a;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Durum ve yerel depolama                                             */
+  /* ------------------------------------------------------------------ */
+  var storageOk = true;
+  var state = loadState();
+
+  function emptyState() { return { known: {}, review: [], pending: null }; }
+
+  function loadState() {
+    var s = emptyState();
+    try {
+      var raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) {
+        var data = JSON.parse(raw);
+        if (data && typeof data.known === "object") {
+          Object.keys(data.known).forEach(function (k) {
+            if (BY_EN[k]) {
+              var v = data.known[k] || {};
+              s.known[k] = { sentence: typeof v.sentence === "string" ? v.sentence : "", at: v.at || Date.now() };
+            }
+          });
+        }
+        if (Array.isArray(data.review)) {
+          data.review.forEach(function (k) {
+            if (BY_EN[k] && !s.known[k] && s.review.indexOf(k) === -1) s.review.push(k);
+          });
+        }
+        if (data.pending && BY_EN[data.pending.word] && s.known[data.pending.word]) {
+          s.pending = { word: data.pending.word, from: data.pending.from === "review" ? "review" : "learn" };
+        }
+      }
+      localStorage.setItem(STORAGE_KEY + "-test", "1");
+      localStorage.removeItem(STORAGE_KEY + "-test");
+    } catch (e) {
+      storageOk = false;
+    }
+    return s;
+  }
+
+  function save() {
+    if (!storageOk) return;
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {
+      storageOk = false;
+      document.getElementById("storageWarning").hidden = false;
+    }
+  }
+
+  function knownCount() { return Object.keys(state.known).length; }
+  function percent(n) { return Math.floor((n / EXPECTED_TOTAL) * 1000) / 10; }
+  function fmtPercent(n) { return "%" + percent(n).toLocaleString("tr-TR"); }
+
+  function nextNewWord() {
+    for (var i = 0; i < ORDER.length; i++) {
+      var w = ORDER[i];
+      if (!state.known[w] && state.review.indexOf(w) === -1) return w;
+    }
+    return null;
+  }
+  function newRemaining() {
+    var c = 0;
+    for (var i = 0; i < ORDER.length; i++) {
+      if (!state.known[ORDER[i]] && state.review.indexOf(ORDER[i]) === -1) c++;
+    }
+    return c;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* İşlemler                                                            */
+  /* ------------------------------------------------------------------ */
+  function markKnown(word, from) {
+    if (!state.known[word]) state.known[word] = { sentence: "", at: Date.now() };
+    state.review = state.review.filter(function (w) { return w !== word; });
+    state.pending = { word: word, from: from };
+    save();
+  }
+
+  function markUnknownFromLearn(word) {
+    if (state.review.indexOf(word) === -1) state.review.push(word);
+    save();
+  }
+
+  function markUnknownFromReview(word) {
+    state.review = state.review.filter(function (w) { return w !== word; });
+    state.review.push(word); // sıranın sonuna al
+    save();
+  }
+
+  function saveSentence(word, text) {
+    if (!state.known[word]) return;
+    state.known[word].sentence = text;
+    if (state.pending && state.pending.word === word) state.pending = null;
+    save();
+  }
+
+  function resetAll() {
+    state = emptyState();
+    try { localStorage.removeItem(STORAGE_KEY); } catch (e) { /* yok say */ }
+    save();
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Cümle doğrulama                                                     */
+  /* ------------------------------------------------------------------ */
+  var IRREGULAR = {
+    lead: ["led"], lend: ["lent"], seek: ["sought"], deal: ["dealt"], spoil: ["spoilt"],
+    forgive: ["forgave", "forgiven"], overcome: ["overcame"], withdraw: ["withdrew", "withdrawn"],
+    phenomenon: ["phenomena"], basis: ["bases"], criterion: ["criteria"]
+  };
+
+  function spellingVariants(w) {
+    var v = [w];
+    if (w.indexOf("our") > -1) v.push(w.replace("our", "or"));      // behaviour → behavior
+    if (/ize$/.test(w)) v.push(w.replace(/ize$/, "ise"));            // organize → organise
+    if (/yse$/.test(w)) v.push(w.replace(/yse$/, "yze"));            // analyse → analyze
+    if (w === "dialogue") v.push("dialog");
+    if (w === "towards") v.push("toward");
+    return v;
+  }
+
+  function wordForms(word) {
+    var forms = {};
+    spellingVariants(word).forEach(function (w) {
+      [w, w + "s", w + "es", w + "d", w + "ed", w + "ing", w + "er", w + "ers", w + "est", w + "ly", w + "'s"]
+        .forEach(function (f) { forms[f] = 1; });
+      if (/e$/.test(w)) {
+        var st = w.slice(0, -1);
+        [st + "ing", w + "r", w + "rs", w + "st"].forEach(function (f) { forms[f] = 1; });
+      }
+      if (/le$/.test(w)) forms[w.slice(0, -1) + "y"] = 1;           // humble → humbly
+      if (/ic$/.test(w)) forms[w + "ally"] = 1;                       // realistic → realistically
+      if (/[^aeiou]y$/.test(w)) {
+        var sy = w.slice(0, -1);
+        [sy + "ies", sy + "ied", sy + "ier", sy + "iest", sy + "ily"].forEach(function (f) { forms[f] = 1; });
+      }
+      if (/[^aeiou][aeiou][bdfgklmnprtvz]$/.test(w)) {                // commit → committed
+        var dbl = w + w.slice(-1);
+        [dbl + "ed", dbl + "ing", dbl + "er"].forEach(function (f) { forms[f] = 1; });
+      }
+      (IRREGULAR[w] || []).forEach(function (f) { forms[f] = 1; });
+    });
+    return Object.keys(forms);
+  }
+
+  function sentenceContainsWord(sentence, word) {
+    var text = sentence.toLowerCase().replace(/[’‘`´]/g, "'");
+    var tokens = text.split(/[^a-z']+/).map(function (t) { return t.replace(/^'+|'+$/g, ""); });
+    var forms = wordForms(word);
+    return tokens.some(function (t) { return forms.indexOf(t) > -1; });
+  }
+
+  function validateSentence(sentence, word) {
+    var s = sentence.trim();
+    if (!s) return "Lütfen boş bırakma; “" + word + "” kelimesini içeren bir cümle yaz.";
+    var latinWords = s.match(/[A-Za-z']+/g) || [];
+    if (latinWords.length < 3) return "Lütfen en az üç kelimelik İngilizce bir cümle yaz.";
+    if (!sentenceContainsWord(s, word)) {
+      return "Cümlende “" + word + "” kelimesini bulamadım. Lütfen kelimeyi cümleye ekle.";
+    }
+    if (s.length > 300) return "Cümle en fazla 300 karakter olabilir.";
+    return "";
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Yardımcılar                                                         */
+  /* ------------------------------------------------------------------ */
+  function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  var toastTimer = null;
+  function showToast(msg, ms) {
+    var t = document.getElementById("toast");
+    t.textContent = msg;
+    t.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.hidden = true; }, ms || 3200);
+  }
+
+  var canSpeak = "speechSynthesis" in window && typeof SpeechSynthesisUtterance === "function";
+  function speak(word) {
+    if (!canSpeak) return;
+    window.speechSynthesis.cancel();
+    var u = new SpeechSynthesisUtterance(word);
+    u.lang = "en-GB";
+    u.rate = 0.9;
+    window.speechSynthesis.speak(u);
+  }
+
+  function posLabel(pos) { return POS_LABELS[pos]; }
+
+  function speakBtn(word) {
+    return canSpeak
+      ? '<button type="button" class="speak" data-action="speak" data-word="' + word + '" aria-label="' + word + ' kelimesini seslendir">🔊 Dinle</button>'
+      : "";
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Ekranlar                                                            */
+  /* ------------------------------------------------------------------ */
+  function renderHome() {
+    var k = knownCount(), r = state.review.length;
+    var html = "";
+
+    if (k === EXPECTED_TOTAL) html += completionCard();
+
+    html += '<div class="card">' +
+      '<p class="eyebrow">AGS İngilizce · B1–B2</p>' +
+      "<h1>Kelime Butiği</h1>" +
+      '<p class="lead">Önce kelimeyi gör, bilip bilmediğine karar ver, sonra anlamını kontrol et. Bildiğin kelimeyle kendi cümleni kur, bilmediklerini sonra tekrar et.</p>' +
+      '<div class="stats">' +
+      stat(EXPECTED_TOTAL, "Toplam kelime") +
+      stat(k, "Öğrenilen") +
+      stat(r, "Tekrar bekleyen") +
+      stat(fmtPercent(k), "İlerleme") +
+      "</div>" +
+      '<div class="progress" role="progressbar" aria-label="Genel ilerleme" aria-valuemin="0" aria-valuemax="' + EXPECTED_TOTAL + '" aria-valuenow="' + k + '" aria-valuetext="' + EXPECTED_TOTAL + ' kelimenin ' + k + ' tanesi öğrenildi">' +
+      '<div class="progress-bar" style="width:' + percent(k) + '%"></div></div>' +
+      '<div class="progress-meta"><span>' + k + " / " + EXPECTED_TOTAL + " kelime</span><span>Henüz görülmemiş: " + newRemaining() + "</span></div>" +
+      '<div class="actions">' +
+      '<a class="btn btn-primary" href="#ogren">Öğrenmeye başla</a>' +
+      '<a class="btn btn-outline" href="#tekrar">Tekrar çalış (' + r + ")</a>" +
+      '<a class="btn btn-outline" href="#bilinenler">Bilinen kelimelerim</a>' +
+      "</div></div>";
+
+    html += countriesSection();
+
+    html += '<div class="danger-zone"><button type="button" class="link-btn" data-action="reset">İlerlemeyi sıfırla</button></div>';
+    return html;
+  }
+
+  function countriesSection() {
+    return '<section class="card countries-card" aria-labelledby="countriesTitle">' +
+      '<p class="eyebrow">Bilgi köşesi</p>' +
+      '<h2 id="countriesTitle">İngilizcenin konuşulduğu ülkeler</h2>' +
+      '<p class="lead">Kelime çalışmasına ara verdiğinde göz atabileceğin kısa notlar.</p>' +
+      '<ul class="countries" role="list">' +
+      COUNTRIES.map(function (c) {
+        return '<li class="country"><div class="country-head">' +
+          '<span class="country-code" aria-hidden="true">' + c.code + "</span>" +
+          "<div><h3>" + c.name + '</h3><p class="country-capital">Başkent: ' + c.capital + "</p></div></div>" +
+          '<p class="country-text">' + c.lang + "</p>" +
+          '<p class="country-note"><strong>Küçük not:</strong> ' + c.note + "</p></li>";
+      }).join("") +
+      "</ul></section>";
+  }
+
+  function stat(value, label) {
+    return '<div class="stat"><span class="stat-value">' + value + '</span><span class="stat-label">' + label + "</span></div>";
+  }
+
+  function completionCard() {
+    return '<div class="card complete" role="status">' +
+      '<p class="big" aria-hidden="true">👑</p>' +
+      "<h2>Tebrikler, 800 kelimenin tamamını öğrendin!</h2>" +
+      '<p class="lead">Listedeki bütün kelimeleri bildiğini işaretledin; AGS yolculuğunda büyük bir adım attın. Bilinen kelimelerim bölümünden cümlelerini tekrar okuyarak sınava kadar taze tutabilirsin.</p>' +
+      '<a class="btn btn-primary" href="#bilinenler">Cümlelerime göz at</a></div>';
+  }
+
+  function wordCard(word, opts) {
+    var w = BY_EN[word];
+    return '<div class="card card-narrow word-card">' +
+      '<div class="word-meta"><span>' + opts.meta + "</span>" + speakBtn(word) + "</div>" +
+      '<p class="eyebrow">' + opts.label + "</p>" +
+      '<h1 class="word" lang="en">' + w.en + "</h1>" +
+      '<span class="pos">' + posLabel(w.pos) + "</span>" +
+      '<p class="meaning meaning-hidden">Anlamı, seçimini yaptıktan sonra gösterilecek.</p>' +
+      '<div class="btn-row">' +
+      '<button type="button" class="btn btn-primary" data-action="' + opts.knowAction + '" data-word="' + word + '">✓ Biliyorum</button>' +
+      '<button type="button" class="btn btn-outline" data-action="' + opts.dontAction + '" data-word="' + word + '">Bilmiyorum</button>' +
+      "</div></div>";
+  }
+
+  function revealCard(word, ctx) {
+    var w = BY_EN[word];
+    var info = ctx === "learn"
+      ? "Bu kelime “Tekrar çalışılacaklar” bölümüne taşındı."
+      : "Bu kelime tekrar listesinin sonuna taşındı.";
+    return '<div class="card card-narrow word-card">' +
+      '<div class="word-meta"><span>Anlamı</span>' + speakBtn(word) + "</div>" +
+      '<h1 class="word" lang="en">' + w.en + "</h1>" +
+      '<span class="pos">' + posLabel(w.pos) + "</span>" +
+      '<p class="meaning">' + escapeHtml(w.tr) + "</p>" +
+      '<div class="notice notice-info">' + info + "</div>" +
+      '<div class="btn-row"><button type="button" class="btn btn-primary" data-action="next">Sonraki kelime →</button></div>' +
+      "</div>";
+  }
+
+  function sentenceForm(word, ctx) {
+    var w = BY_EN[word];
+    var existing = state.known[word] ? state.known[word].sentence : "";
+    return '<div class="card card-narrow">' +
+      '<div class="notice notice-ok" style="margin-bottom:1rem">“' + w.en + "” bilinen kelimelerine eklendi.</div>" +
+      '<form class="sentence-form" data-word="' + word + '" data-ctx="' + ctx + '" novalidate>' +
+      '<p class="eyebrow">Cümle zamanı</p>' +
+      '<h2><span lang="en">' + w.en + '</span> <span class="pos">' + posLabel(w.pos) + "</span></h2>" +
+      '<p class="lead">' + escapeHtml(w.tr) + "</p>" +
+      '<div class="field"><label for="sentence-' + word + '">Bu kelimeyi içeren İngilizce bir cümle yaz</label>' +
+      '<textarea id="sentence-' + word + '" name="sentence" rows="3" maxlength="300" lang="en" spellcheck="true" aria-describedby="hint-' + word + " err-" + word + '" placeholder="Örn. bir cümle içinde ' + w.en + ' kelimesini kullan">' + escapeHtml(existing) + "</textarea>" +
+      '<p class="hint" id="hint-' + word + '">Kelimenin çekimli hâlleri de kabul edilir (ör. -s, -ed, -ing).</p>' +
+      '<p class="error" id="err-' + word + '" role="alert"></p></div>' +
+      '<div class="btn-row" style="margin-top:1rem"><button type="submit" class="btn btn-primary">Cümleyi kaydet</button></div>' +
+      "</form></div>";
+  }
+
+  function renderLearn() {
+    if (state.pending && state.pending.from === "learn") return sentenceForm(state.pending.word, "learn");
+    if (revealed && revealed.ctx === "learn") return revealCard(revealed.word, "learn");
+    var word = nextNewWord();
+    if (!word) {
+      if (knownCount() === EXPECTED_TOTAL) return completionCard();
+      return '<div class="card card-narrow" style="text-align:center">' +
+        "<h1>Yeni kelime kalmadı</h1>" +
+        '<p class="lead">Tüm kelimeleri gördün. Tekrar çalışılacaklar listende <strong>' + state.review.length + "</strong> kelime seni bekliyor.</p>" +
+        '<a class="btn btn-primary" href="#tekrar">Tekrar çalış</a></div>';
+    }
+    return wordCard(word, {
+      label: "Yeni kelime",
+      meta: "Kalan yeni kelime: " + newRemaining(),
+      knowAction: "learn-know",
+      dontAction: "learn-dont"
+    });
+  }
+
+  function renderReview() {
+    if (state.pending && state.pending.from === "review") return sentenceForm(state.pending.word, "review");
+    if (revealed && revealed.ctx === "review") return revealCard(revealed.word, "review");
+    var r = state.review;
+    if (!r.length) {
+      return '<div class="card card-narrow" style="text-align:center">' +
+        "<h1>Tekrar listen boş</h1>" +
+        '<p class="lead">“Bilmiyorum” dediğin kelimeler burada birikir. Şu an tekrar bekleyen kelime yok.</p>' +
+        '<a class="btn btn-primary" href="#ogren">Yeni kelimelere geç</a></div>';
+    }
+    var word = r[0];
+    return '<div class="card card-narrow" style="padding:1rem 1.5rem"><h1 style="font-size:1.5rem;margin:0">Tekrar çalışılacaklar</h1>' +
+      '<p class="lead" style="margin:0">Bildiğini işaretlediğin kelime bilinenlere geçer; bilmediğin kelime listenin sonuna gider.</p></div>' +
+      wordCard(word, {
+        label: "Tekrar",
+        meta: "Tekrar bekleyen: " + r.length,
+        knowAction: "review-know",
+        dontAction: "review-dont"
+      }) +
+      '<div class="card card-narrow"><details class="review-list"><summary>Tüm tekrar listesini göster (' + r.length + ")</summary>" +
+      '<ul class="chips">' + r.map(function (w) {
+        return '<li><strong lang="en">' + w + "</strong> <span>· " + escapeHtml(BY_EN[w].tr) + "</span></li>";
+      }).join("") + "</ul></details></div>";
+  }
+
+  var revealed = null; // "Bilmiyorum" sonrası anlamı gösterilen kelime
+  var knownFilter = "";
+  var editing = null;
+
+  function renderKnown() {
+    var keys = Object.keys(state.known).sort(function (a, b) { return state.known[b].at - state.known[a].at; });
+    var html = '<div class="card"><h1>Bilinen kelimelerim</h1>';
+    if (!keys.length) {
+      return html + '<p class="lead">Henüz bilinen kelimen yok. “Biliyorum” dediğin kelimeler ve yazdığın cümleler burada görünecek.</p>' +
+        '<a class="btn btn-primary" href="#ogren">Öğrenmeye başla</a></div>';
+    }
+    var missing = keys.filter(function (k) { return !state.known[k].sentence; }).length;
+    html += '<div class="toolbar"><div class="field"><label for="knownSearch">Kelime veya anlam ara</label>' +
+      '<input type="search" id="knownSearch" value="' + escapeHtml(knownFilter) + '" placeholder="ör. achieve, başarmak" autocomplete="off"></div></div>';
+    if (missing) html += '<div class="notice notice-info">' + missing + " kelime için henüz cümle yazmadın. “Cümle ekle” ile tamamlayabilirsin.</div>";
+    html += '<p class="count-note" id="knownCount"></p><ul class="list" id="knownList">' + knownItems(keys) + "</ul></div>";
+    return html;
+  }
+
+  function filteredKnown(keys) {
+    var q = knownFilter.trim().toLocaleLowerCase("tr-TR");
+    if (!q) return keys;
+    return keys.filter(function (k) {
+      var w = BY_EN[k];
+      return k.indexOf(q) > -1 || w.tr.toLocaleLowerCase("tr-TR").indexOf(q) > -1 ||
+        state.known[k].sentence.toLocaleLowerCase("tr-TR").indexOf(q) > -1;
+    });
+  }
+
+  function knownItems(keys) {
+    var list = filteredKnown(keys);
+    if (!list.length) return '<li class="list-item">Aramana uyan kelime bulunamadı.</li>';
+    return list.map(function (k) {
+      var w = BY_EN[k], s = state.known[k].sentence;
+      var body;
+      if (editing === k) {
+        body = '<form class="sentence-form" data-word="' + k + '" data-ctx="known" novalidate style="margin-top:.6rem">' +
+          '<div class="field"><label for="sentence-' + k + '">“' + k + '” ile İngilizce bir cümle</label>' +
+          '<textarea id="sentence-' + k + '" name="sentence" rows="2" maxlength="300" lang="en" aria-describedby="err-' + k + '">' + escapeHtml(s) + "</textarea>" +
+          '<p class="error" id="err-' + k + '" role="alert"></p></div>' +
+          '<div class="list-tools"><button type="submit" class="btn btn-primary btn-small">Kaydet</button>' +
+          '<button type="button" class="btn btn-ghost btn-small" data-action="cancel-edit">Vazgeç</button></div></form>';
+      } else {
+        body = (s
+          ? '<p class="sentence" lang="en">' + escapeHtml(s) + "</p>"
+          : '<p class="sentence missing">Henüz cümle yazılmadı.</p>') +
+          '<div class="list-tools"><button type="button" class="btn btn-ghost btn-small" data-action="edit" data-word="' + k + '">' +
+          (s ? "Cümleyi düzenle" : "Cümle ekle") + "</button></div>";
+      }
+      return '<li class="list-item"><div class="list-head"><span><span class="list-word" lang="en">' + k + '</span> <span class="pos">' + posLabel(w.pos) + "</span></span>" +
+        '<span class="list-meaning">' + escapeHtml(w.tr) + "</span></div>" + body + "</li>";
+    }).join("");
+  }
+
+  function updateKnownList() {
+    var listEl = document.getElementById("knownList");
+    if (!listEl) return;
+    var keys = Object.keys(state.known).sort(function (a, b) { return state.known[b].at - state.known[a].at; });
+    listEl.innerHTML = knownItems(keys);
+    var shown = filteredKnown(keys).length;
+    document.getElementById("knownCount").textContent = shown === keys.length
+      ? keys.length + " bilinen kelime"
+      : keys.length + " kelimeden " + shown + " tanesi gösteriliyor";
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* Yönlendirme ve olaylar                                              */
+  /* ------------------------------------------------------------------ */
+  var ROUTES = { "": "home", "#": "home", "#anasayfa": "home", "#ogren": "learn", "#tekrar": "review", "#bilinenler": "known" };
+
+  function currentRoute() { return ROUTES[location.hash] || "home"; }
+
+  function render(focusMain) {
+    var route = currentRoute();
+    var html = route === "learn" ? renderLearn()
+      : route === "review" ? renderReview()
+      : route === "known" ? renderKnown()
+      : renderHome();
+    view.innerHTML = html;
+    if (route === "known") updateKnownList();
+
+    document.querySelectorAll("[data-nav]").forEach(function (a) {
+      if (a.getAttribute("data-nav") === route) a.setAttribute("aria-current", "page");
+      else a.removeAttribute("aria-current");
+    });
+    var badge = document.getElementById("reviewBadge");
+    badge.textContent = state.review.length;
+    badge.setAttribute("aria-label", state.review.length + " tekrar bekleyen kelime");
+
+    var ta = view.querySelector("textarea");
+    if (ta) ta.focus();
+    else if (focusMain) document.getElementById("main").focus({ preventScroll: true });
+  }
+
+  window.addEventListener("hashchange", function () { editing = null; revealed = null; render(true); window.scrollTo(0, 0); });
+
+  view.addEventListener("click", function (e) {
+    var btn = e.target.closest("[data-action]");
+    if (!btn) return;
+    var action = btn.getAttribute("data-action");
+    var word = btn.getAttribute("data-word");
+    switch (action) {
+      case "learn-know": markKnown(word, "learn"); render(); break;
+      case "learn-dont": markUnknownFromLearn(word); revealed = { word: word, ctx: "learn" }; render(); break;
+      case "review-know": markKnown(word, "review"); render(); break;
+      case "review-dont":
+        markUnknownFromReview(word);
+        revealed = { word: word, ctx: "review" };
+        render();
+        break;
+      case "next": revealed = null; render(); var b = view.querySelector(".btn-primary"); if (b) b.focus(); break;
+      case "speak": speak(word); break;
+      case "edit": editing = word; updateKnownList(); var t = document.getElementById("sentence-" + word); if (t) t.focus(); break;
+      case "cancel-edit": editing = null; updateKnownList(); break;
+      case "reset": openReset(); break;
+    }
+  });
+
+  view.addEventListener("submit", function (e) {
+    var form = e.target.closest(".sentence-form");
+    if (!form) return;
+    e.preventDefault();
+    var word = form.getAttribute("data-word");
+    var ctx = form.getAttribute("data-ctx");
+    var ta = form.querySelector("textarea");
+    var err = form.querySelector(".error");
+    var msg = validateSentence(ta.value, word);
+    if (msg) {
+      err.textContent = msg;
+      ta.setAttribute("aria-invalid", "true");
+      ta.focus();
+      return;
+    }
+    saveSentence(word, ta.value.trim().replace(/\s+/g, " "));
+    if (ctx === "known") {
+      editing = null;
+      updateKnownList();
+      showToast("Cümlen güncellendi.");
+    } else {
+      showToast("Cümlen kaydedildi. Harika!");
+      render();
+    }
+  });
+
+  view.addEventListener("input", function (e) {
+    if (e.target.id === "knownSearch") {
+      knownFilter = e.target.value;
+      updateKnownList();
+    } else if (e.target.tagName === "TEXTAREA") {
+      var err = e.target.closest("form").querySelector(".error");
+      if (err && err.textContent) { err.textContent = ""; e.target.removeAttribute("aria-invalid"); }
+    }
+  });
+
+  // Ctrl/Cmd + Enter ile cümle gönder
+  view.addEventListener("keydown", function (e) {
+    if (e.target.tagName === "TEXTAREA" && e.key === "Enter" && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      e.target.form.requestSubmit ? e.target.form.requestSubmit() : e.target.form.dispatchEvent(new Event("submit", { cancelable: true, bubbles: true }));
+    }
+  });
+
+  var dialog = document.getElementById("resetDialog");
+  function openReset() {
+    if (dialog && typeof dialog.showModal === "function") {
+      dialog.returnValue = "";
+      dialog.showModal();
+    } else if (window.confirm("Tüm ilerlemen ve cümlelerin silinecek. Emin misin?")) {
+      doReset();
+    }
+  }
+  function doReset() {
+    resetAll();
+    knownFilter = "";
+    editing = null;
+    revealed = null;
+    showToast("İlerlemen sıfırlandı.");
+    render(true);
+  }
+  if (dialog) {
+    dialog.addEventListener("close", function () {
+      if (dialog.returnValue === "confirm") doReset();
+    });
+  }
+
+  if (!storageOk) document.getElementById("storageWarning").hidden = false;
+
+  // Sayfa dili ve "İçeriğe geç" bağlantısı (adres çubuğundaki ekranı değiştirmeden odaklar)
+  document.documentElement.lang = "tr";
+  var skip = document.querySelector(".skip-link");
+  if (skip) skip.addEventListener("click", function (e) {
+    e.preventDefault();
+    document.getElementById("main").focus();
+  });
+
+  // Test ve hata ayıklama için küçük bir arayüz
+  window.KelimeButigi = {
+    validateSentence: validateSentence,
+    words: WORDS,
+    state: function () { return JSON.parse(JSON.stringify(state)); }
+  };
+
+  render();
+})();
+
+</script>
+</body>
+</html>
